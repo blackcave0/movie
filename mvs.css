@@ -40,7 +40,7 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     height: 100%;
     width: 100%;
     text-align: center;
-    background: url(/panchayat_img/p_trailer.jpg);
+    background: url(p_trailer.jpg);
     background-size: cover;
     /* background-position: left; */
     border-radius: 10px;
