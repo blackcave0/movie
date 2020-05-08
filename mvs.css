@@ -266,3 +266,20 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
 .button0:hover .primary{
     margin-top: -54px;
 }
+
+.icm{
+    position: absolute;
+    top: 120px;
+    left: 3.4rem;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    text-decoration:none;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ff7858;
+    border-style: none;
+}
