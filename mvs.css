@@ -88,7 +88,7 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
 
 
 /* --------------------------------------------------Panchayat E01--------------------------- */
-/* .center0, .front-face0,
+.center0, .front-face0,
 .back-face0, .contents0{
     position: absolute;
 }
@@ -96,7 +96,7 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
 .center0{
     top: 6rem;
     left: 25rem;
-    transform: translate(-50%, -50%); = this line is commentes 
+    /* transform: translate(-50%, -50%); = this line is commentes  */
     height: 200px;
     width: 300px;
     background-size: cover;
@@ -109,8 +109,8 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     height: 100%;
     width: 100%;
     text-align: center;
-    background: url(/panchayat_img/panchayat.jpg);
-    background-size: 300px 200px;  = this line is commentes 
+    background: url(panchayat.jpg);
+    /* background-size: 300px 200px;  = this line is commentes  */
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -125,7 +125,7 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     top: 20%;
     width: 100%;
     perspective: 1000px;
-    this transform use for text 3D effect  =  this line is commentes 
+    /* this transform use for text 3D effect  =  this line is commentes  */
     transform: translateY(-50%) translateZ(60px) scale(.94);
 }
 
@@ -158,7 +158,7 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     transform: rotateY(-180deg);
     
 
-} */
+}
 
 
 /* .button{
