@@ -284,8 +284,10 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     background-color: #ff7858;
     border-style: hidden;
     cursor: default;
+    color: white;
    
 }
 .icm .icm2{
     margin-right: 10px;
+    padding-top: 16px;
 }
