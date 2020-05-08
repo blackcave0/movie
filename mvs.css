@@ -291,3 +291,10 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     margin-right: 10px;
     padding-top: 16px;
 }
+
+.aa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
