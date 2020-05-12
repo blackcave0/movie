@@ -117,12 +117,11 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transition: transform .7s cubic-bezier(.4, .2, .2, .1);
-
 }
 
 .contents0{
     left: 0;
-    top: 20%;
+    top: 40px;
     width: 100%;
     perspective: 1000px;
     /* this transform use for text 3D effect  =  this line is commentes  */
@@ -140,6 +139,7 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
 }
 
 .back0 h2{
+    
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 5px;
@@ -147,6 +147,17 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+.back0 h2::after{
+    content: '';
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .center0:hover > .back-face0{
@@ -267,7 +278,13 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
     margin-top: -54px;
 }
 
-.icm{ 
+.button0{
+    position: absolute;
+    top: 19rem;
+    left: 28.5rem;
+}
+
+/* .icm{ 
     position: absolute;
     top: 120px;
     left: 3.4rem;
@@ -315,5 +332,5 @@ background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0)
 
 .fcm{
     margin-right: 10px;   
-}
+} */
 
