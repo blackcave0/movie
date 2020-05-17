@@ -14,7 +14,7 @@
 }
 
 /* body */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 320px){
     body{
         /* position: relative; */
         height: 100vh;
@@ -39,7 +39,7 @@
 
 /* --------- for site name movies house ------------------ */
 
-@media only screen and (min-width : 600px) {
+@media only screen and (min-width : 320px) {
     .site-name{
         position: absolute;
         top: 70px;
@@ -71,7 +71,7 @@
 
 /* --------------- for about panchayat ------------------ */
 /* for monile  */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 320px){
     .about{
         position: absolute;
         font-size: 20px;
@@ -150,7 +150,7 @@
 
 /* ---------- forpanchayat trailer ---------------------- */
 /* for mobile  */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 320px){
     .center, .front-face,
     .back-face, .contents{
         position: absolute;
@@ -274,7 +274,7 @@
 /* --------------------------------------------------Panchayat E01--------------------------- */
 
 /* for mobile  */
-@media only screen and (min-width:600px){
+@media only screen and (min-width:320px){
     .center0, .front-face0,
     .back-face0, .contents0{
         position: absolute;
@@ -402,7 +402,7 @@
 
 /* ------- button for youtube trailer -------------*/
 /* for mobile  */
-@media only screen and (min-width:600px){
+@media only screen and (min-width:320px){
     .button1{
         position: absolute;
         top: 39rem;
@@ -509,7 +509,7 @@
 
 /* -------------------for hover button------S01 E01------------ */
 /* for mobile  */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 320px){
     .button2{
         position: absolute;
         top: 39rem;
