@@ -1389,7 +1389,7 @@ body{
     .site-name{
         position: absolute;
         top: 80px;
-        left: 47%;
+        left: 50%;
         transform: translate(-50%, 0%);
         font-family: 'Sedgwick Ave Display', cursive;
         font-size: 30px;
@@ -1402,7 +1402,7 @@ body{
     .paint{
         position: absolute;
         top: -5px;
-        left: 15px;
+        left: 50px;
         width: 250px;
         height: 200px;
     }
