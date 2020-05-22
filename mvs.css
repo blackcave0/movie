@@ -1384,7 +1384,7 @@ body{
 } */
 
 /* --------- for site name movies house ------------------ */
-@media only screen and (max-width : 370px) {
+@media only screen and (max-width : 380px) {
     
     .site-name{
         position: absolute;
