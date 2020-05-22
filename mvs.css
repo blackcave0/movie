@@ -1412,7 +1412,7 @@ body{
     .category{
         top: 160px;
         position: absolute;
-        margin: 0 -5px;
+        margin: 0 -4px;
         text-align: center;
     }
 
@@ -1588,11 +1588,11 @@ body{
     .center0 .hint{
         position: absolute;
         display: block;
-        font-size: 19px;
+        font-size: 16px;
         margin: 0 8px;
         color: white;
         font-weight: 700;
-    font-family: 'Slabo 27px', serif; 
+        font-family: 'Slabo 27px', serif; 
         top: 10px;
         text-align: center;
     }
