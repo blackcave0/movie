@@ -1390,6 +1390,9 @@ body{
         height: 100vh;
     
     }
+    nav{
+        width: 100%;
+    }
     
     .site-name{
         position: absolute;
