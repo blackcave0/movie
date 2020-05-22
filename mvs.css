@@ -1532,7 +1532,7 @@ body{
 
     .center0{
         top: 26rem;
-        left: 1rem;
+        left: 2rem;
         background-size: cover;
         background-position: center;
     }
@@ -1564,7 +1564,7 @@ body{
     .second_bttn1{
         position: absolute;
         top: 42.5rem;
-        left: 1rem;
+        left: 2rem;
         display: inline-block;
         width: 136px;
         height: 40px;
@@ -1600,7 +1600,7 @@ body{
     /* criminal justice  */
     .cj{
         top: 26rem;
-        left: 10.5rem;
+        left: 13rem;
         position: absolute;
         display: block;
     }
@@ -1616,7 +1616,7 @@ body{
     .cj_bttn{
         position: absolute;   
         top: 42.5rem;
-        left: 10.5rem;
+        left: 13rem;
         width: 136px;
         height: 40px;
         font-size: 18px;
@@ -1629,6 +1629,7 @@ body{
         background-color: #ff7858;
         color: #000;
         overflow: hidden;
+        display: block;
     }
     .cj_bttn .icon{
         color: white;
