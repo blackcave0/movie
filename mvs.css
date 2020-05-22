@@ -15,67 +15,69 @@
 }
 
 body{
-    height: 110vh;
+    height: 250vh;
     background: #7474BF;
     background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  
     background: linear-gradient(to right, #348AC7, #7474BF); 
-    /* margin-bottom: 100px; */
+    /* margin-bottom: 600px; */
+}
+
+.second_bttn1{
+    display: none; 
+}
+
+.cj{
+    display: none;
 }
 
 /* --------- for site name movies house ------------------ */
+.paint{
+    top: -60px;
+    left: 15%;
+    height: 380px;
+    position: absolute;
+    width: 850px;
 
+}
 .site-name{
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 50%;
     transform: translate(-50%, 0%);
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: bold;
+    cursor: default;
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-/* --------------- for about panchayat ------------------ */
-/* for desktop{  */
-.about{
+/* category */
+
+.category{
+    top: 200px;
     position: absolute;
-    font-size: 22px;
-    font-style: italic;
-    margin: 220px 30px 0 47px;
-    color: floralwhite;
-    /* font-weight: 600; */
-    /* font-family: 'Baloo Da 2', cursive; */
-    /* font-family: 'Neuton', serif; */
-    /* font-family: 'Cormorant Unicase', serif; */
-    /* font-family: 'Aref Ruqaa', serif; */
-    /* font-family: 'DM Mono', monospace; */
-    /* font-family: 'Sedgwick Ave Display', cursive; */
-    font-family: 'Slabo 27px', serif;
-    text-shadow: 2px 5px 3px black;
+    margin: 40px;
+    text-align: center;
+}
+.category a{
+    color: #000;
+    display: inline-block;
+    margin:10px;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Caladea', serif;
+    /* background: burlywood; */
+    background: rgb(226, 206, 190);
+    text-decoration: none;
+    line-height:15px;
+    padding: 8px 70px;
+    line-height: 25px;
+    /* font-size: 10px; */
+    font-weight: 700;
 }
 
-.storyline{
-    position: relative;
-    text-align: justify;
-    margin-top: 33px;
-    margin-right: 110px;
-    left: 29px;
-}
-.about h3{
-    position: absolute;
-    font-size: 38px;
-    font-weight: bold;
-    color: black;
-    font-family: 'Aref Ruqaa', serif;
-    /* font-family: 'Black And White Picture', sans-serif; */
-    text-shadow: 2px 3px 0 rgb(186, 214, 84);
-    line-height: 1px; 
-}
-
-
-
+ 
 /* ---------- forpanchayat trailer ---------------------- */
 
 /* for desktop */
@@ -86,10 +88,10 @@ body{
 
 .center{
     top: 25rem;
-    left: 3rem;
-    /* transform: translate(-50%, -50%); */
+    left: 5rem;
+    /* left: 3rem; main  */
     height: 200px;
-    width: 300px;
+    width: 250px;
     /* background-size: cover; */
     background-position: center;
     transform-style: preserve-3d;
@@ -122,8 +124,9 @@ body{
 
 .back-face{
     transform: rotateY(180deg);
-    background: linear-gradient(45deg, 
-    #043348 0%, #5c6355 100%);
+    /* background: linear-gradient(45deg, 
+    #043348 0%, #5c6355 100%); */
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
 }
 
 .back{
@@ -131,16 +134,14 @@ body{
 }
 
 .back h2{
-    font-size: 25px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    background: linear-gradient(to right, #ffae8f, #ff677d, #cd6684, #6f5a7e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
 }
-
 .back h2::after{
-    content: '';
+    /* content: ''; */
     display: flex;
     right: 0;
     left: 0;
@@ -152,7 +153,10 @@ body{
 }
 
 .back span{
-    font-size: 20px;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
 }
 
 .center:hover > .back-face{
@@ -163,21 +167,76 @@ body{
     transform: rotateY(-180deg);
 }
 
+/* ------- button for youtube trailer -------------*/
+/* for desktop */
+.button0{
+    position: absolute;
+    top: 38.5rem;
+    /* left: calc(190px - 4%); */
+    left: 145px;
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button0:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button0 .icon{
+    /* margin-right: 1px ; */
+    padding-right: 10px;
+}
+
+.button0 .secondary{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #768d99);
+}
 
 
-/* --------------------------------------------------Panchayat E01--------------------------- */
+.button0 .primary, .button0 .secondary{
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: margin .4s;
+    backface-visibility: hidden;   
+}
+
+.button0 .primary{
+    background-color: #ff7858;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button0:hover .primary{
+    margin-top: -40px;
+}
+
+
+/* ------------------Panchayat E01-------------------- */
 /* for desktop */
 .center0, .front-face0,
 .back-face0, .contents0{
     position: absolute;
 }
-
+.center0 .hint{
+    display: none;
+}
 .center0{
     top: 25rem;
-    left: 25rem;
-    /* transform: translate(-50%, -50%); = this line is commentes  */
+    /* left: 25rem; main  */
+    left: 24rem; 
     height: 200px;
-    width: 300px;
+    width: 250px;
     background-size: cover;
     background-position: center;
     transform-style: preserve-3d;
@@ -189,9 +248,10 @@ body{
     width: 100%;
     text-align: center;
     background: url(panchayat.jpg);
-    /* background-size: 300px 200px;  = this line is commentes  */
-    background-size: cover;
-    background-position: center;
+    background-size: 290px;
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-position: 555px;
     border-radius: 10px;
     backface-visibility: hidden;
     transform-style: preserve-3d;
@@ -210,8 +270,7 @@ body{
 
 .back-face0{
     transform: rotateY(180deg);
-    background: linear-gradient(45deg, 
-    #043348 0%, #5c6355 100%);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
 }
 
 .back0{
@@ -219,17 +278,19 @@ body{
 }
 
 .back0 h2{
-    font-size: 25px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    background: linear-gradient(to right, #ffae8f, #ff677d, #cd6684, #6f5a7e);
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+    /* background: linear-gradient(to right, #ffae8f, #ff677d, #cd6684, #6f5a7e);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 
 }
 
 .back0 h2::after{
-    content: '';
+    /* content: ''; */
     display: flex;
     right: 0;
     left: 0;
@@ -241,61 +302,66 @@ body{
 }
 
 .back0 span{
-    font-size: 20px;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
 }
 
 .center0:hover > .back-face0{
     transform: rotateY(0deg);
-    
 }
 
 .center0:hover > .front-face0{
     transform: rotateY(-180deg);
-    
-
 }
 
+/* -------------------button------S01 E01------------ */
 
-
-/* ------- button for youtube trailer -------------*/
 /* for desktop */
 .button1{
     position: absolute;
-    top: 39.3rem;
-    left: 6rem;
-    width: 200px;
-    height: 50px;
+    top: 38.5rem;
+    left: 445px;
+    width: 130px;
+    height: 40px;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
+    text-decoration: none;
     overflow: hidden;
     border-radius: 10px;
 }
 
 .button1:hover{
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0); 
     text-decoration: none;
 }
-
+    
 .button1 .icon{
-    margin-right: 10px ;
+    /* margin-right: 0px; */
+    padding-right: 10px;
+}
+
+.button1 .firstt{
+    display: none;
 }
 
 .button1 .secondary{
-    font-weight: 700;
-    color: white;
-    background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #043348);
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #768d99);
 }
-
 
 .button1 .primary, .button1 .secondary{
     display: block;
     padding: 0 10px;
-    line-height: 54px;
+    line-height: 40px;
     transition: margin .4s;
-    backface-visibility: hidden;   
+    backface-visibility: hidden;
 }
 
 .button1 .primary{
@@ -305,50 +371,143 @@ body{
 }
 
 .button1:hover .primary{
-    margin-top: -54px;
+    margin-top: -40px;
 }
 
 
-/* -------------------for hover button------S01 E01------------ */
+/* -------------------for panchayat S01 E02----------------- */
+.center2, .front-face2,
+.back-face2, .contents2{
+    position: absolute;
+}
 
-/* for desktop */
+.center2{
+    top: 25rem;
+    /* left: 47rem; main  */
+    left: 43rem;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.front-face2, .back-face2{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(panchayat.jpg);
+    /* background-size: cover; */
+    background-size: 290px;
+    /* background-position: center; */
+    background-position: 555px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform .7s cubic-bezier(.4, .2, .2, .1);
+}
+
+.contents2{
+    left: 0;
+    top: 90px;
+    width: 100%;
+    perspective: 1000px;
+    display: block;
+    /* this transform use for text 3D effect */
+    transform: translateY(-50%) translateZ(70px) scale(.94);
+}
+
+.back-face2{
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
+}
+
+.back2{
+    color: black;
+}
+
+.back2 h2{
+    font-size: 35px;
+    font-family: 'Aref Ruqaa', serif;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+    /* background: linear-gradient(to right, #ffae8f, #ff677d, #cd6684, #6f5a7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.back2 h2::after{
+    /* content: ''; */
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.back2 span{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.center2:hover > .back-face2{
+    transform: rotateY(0deg);
+}
+
+.center2:hover > .front-face2{
+    transform: rotateY(-180deg);
+}
+
+/* the button pf panchayat S01 E02  */
+/* desktop */
 .button2{
     position: absolute;
-    top: 39.3rem;
-    left: 28rem;
-    width: 200px;
-    height: 50px;
+    top: 38.5rem;
+    left: 747px;
+    width: 130px;
+    height: 40px;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
-    /* color: #342; */
-    /* color:white; */
     overflow: hidden;
     border-radius: 10px;
 }
 
 .button2:hover{
-    box-shadow: 0 0 10px rgb(0, 0, 0); 
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     text-decoration: none;
 }
-    
+
 .button2 .icon{
-    margin-right: 10px;
+    /* margin-right: 0px; */
+    padding-right: 10px;
+}
+
+.button2 .firstt{
+    display: none;
 }
 
 .button2 .secondary{
-    font-weight: 700;
-    color: white;
-    background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #043348);
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #768d99);
 }
 
 .button2 .primary, .button2 .secondary{
     display: block;
     padding: 0 10px;
-    line-height: 54px;
+    line-height: 40px;
     transition: margin .4s;
     backface-visibility: hidden;
 }
@@ -360,266 +519,1120 @@ body{
 }
 
 .button2:hover .primary{
-    margin-top: -54px;
+    margin-top: -40px;
 }
 
 
 
+/* ----------- for panchayat S01 E03  --------------------- */
+.center3, .front-face3,
+.back-face3, .contents3{
+    position: absolute;
+}
+
+.center3{
+    top: 25rem;
+    /* left: 47rem; main  */
+    left: 62rem;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.front-face3, .back-face3{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(panchayat.jpg);
+    background-size: 290px;
+    /* background-size: cover; */
+    background-position: 555px;
+    /* background-position: center; */
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform .7s cubic-bezier(.4, .2, .2, .1);
+}
+
+.contents3{
+    left: 0;
+    top: 90px;
+    width: 100%;
+    perspective: 1000px;
+    display: block;
+
+    /* this transform use for text 3D effect */
+    transform: translateY(-50%) translateZ(70px) scale(.94);
+}
+
+.back-face3{
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
+}
+
+.back3{
+    color: black;
+}
+
+.back3 h2{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+    /* background: linear-gradient(to right, #ffae8f, #ff677d, #cd6684, #6f5a7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.back3 h2::after{
+    /* content: ''; */
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.back3 span{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.center3:hover > .back-face3{
+    transform: rotateY(0deg);
+}
+
+.center3:hover > .front-face3{
+    transform: rotateY(-180deg);
+}
+/*---------------- button for S01 E03 ------------------ */
+.button3{
+    position: absolute;
+    top: 38.5rem;
+    left: 1048px;
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button3:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button3 .icon{
+    padding-right: 10px;
+}
+
+.button3 .firstt{
+    display: none;
+}
+
+.button3 .secondary{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5, #ff57a5a2, #768d99);
+}
+
+.button3 .primary, .button3 .secondary{
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: margin .4s;
+    backface-visibility: hidden;
+}
+
+.button3 .primary{
+    background-color: #ff7858;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button3:hover .primary{
+    margin-top: -40px;
+}
+
+/* for panchayat E04  */
+.center4, .front-face4,
+.back-face4, .contents4{
+    position: absolute;
+}
+
+.center4{
+    top: 45rem;
+    left: 5rem;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.front-face4, .back-face4{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(panchayat.jpg);
+    background-size: 290px;
+    background-position: 555px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform .7s cubic-bezier(.4, .2, .2, .1);
+}
+
+.contents4{
+    left: 0;
+    top: 90px;
+    width: 100%;
+    perspective: 1000px;
+    display: block;
+    transform: translateY(-50%) translateZ(70px) scale(.94);
+}
+
+.back-face4{
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
+}
+
+.back4{
+    color: black;
+}
+
+.back4 h2{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+}
+
+.back4 h2::after{
+    /* content: ''; */
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.back4 span{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.center4:hover > .back-face4{
+    transform: rotateY(0deg);
+}
+
+.center4:hover > .front-face4{
+    transform: rotateY(-180deg); 
+}
+
+ /*---------------- button  for E04  */
+.button4{
+    position: absolute;   
+    top: 58.5rem;
+    left: 145px;
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button4:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button4 .icon{
+    padding-right: 10px;
+}
+
+.button4 .firstt{
+    display: none;
+}
+
+.button4 .secondary{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5, #ff57a5a2, #768d99);
+}
+
+.button4 .primary, .button4 .secondary{
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: margin .4s;
+    backface-visibility: hidden;
+}
+
+.button4 .primary{
+    background-color: #ff7858;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button4:hover .primary{
+    margin-top: -40px;
+}
+
+/* ----------------------for panchayat E05  */
+.center5, .front-face5,
+.back-face5, .contents5{
+    position: absolute;
+}
+
+.center5{
+    top: 45rem;
+    left: 24rem;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.front-face5, .back-face5{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(panchayat.jpg);
+    background-size: 290px;
+    background-position: 555px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform .7s cubic-bezier(.4, .2, .2, .1);
+}
+
+.contents5{
+    left: 0;
+    top: 90px;
+    width: 100%;
+    perspective: 1000px;
+    display: block;
+    transform: translateY(-50%) translateZ(70px) scale(.94);
+}
+
+.back-face5{
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
+}
+
+.back5{
+    color: black;
+}
+
+.back5 h2{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+}
+
+.back5 h2::after{
+    /* content: ''; */
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.back5 span{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.center5:hover > .back-face5{
+    transform: rotateY(0deg);
+}
+
+.center5:hover > .front-face5{
+    transform: rotateY(-180deg); 
+}
+
+/*---------------- button  for E05  */
+ .button5{
+    position: absolute;   
+    top: 58.5rem;
+    left: 445px;
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button5:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button5 .icon{
+    padding-right: 10px;
+}
+
+.button5 .firstt{
+    display: none;
+}
+
+.button5 .secondary{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5, #ff57a5a2, #768d99);
+}
+
+.button5 .primary, .button5 .secondary{
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: margin .4s;
+    backface-visibility: hidden;
+}
+
+.button5 .primary{
+    background-color: #ff7858;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button5:hover .primary{
+    margin-top: -40px;
+}
+
+
+/* ----------------------for panchayat E06  */
+.center6, .front-face6,
+.back-face6, .contents6{
+    position: absolute;
+}
+
+.center6{
+    top: 45rem;
+    left: 43rem;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.front-face6, .back-face6{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(panchayat.jpg);
+    background-size: 290px;
+    background-position: 555px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform .7s cubic-bezier(.4, .2, .2, .1);
+}
+
+.contents6{
+    left: 0;
+    top: 90px;
+    width: 100%;
+    perspective: 1000px;
+    display: block;
+    transform: translateY(-50%) translateZ(70px) scale(.94);
+}
+
+.back-face6{
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
+}
+
+.back6{
+    color: black;
+}
+
+.back6 h2{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+}
+
+.back6 h2::after{
+    /* content: ''; */
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.back6 span{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.center6:hover > .back-face6{
+    transform: rotateY(0deg);
+}
+
+.center6:hover > .front-face6{
+    transform: rotateY(-180deg); 
+}
+
+/* the button pf panchayat S01 E06 */
+/* desktop */
+.button6{
+    position: absolute;
+    top: 58.5rem;
+    left: 747px;
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button6:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button6 .icon{
+    /* margin-right: 0px; */
+    padding-right: 10px;
+}
+
+.button6 .firstt{
+    display: none;
+}
+
+.button6 .secondary{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #768d99);
+}
+
+.button6 .primary, .button6 .secondary{
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: margin .4s;
+    backface-visibility: hidden;
+}
+
+.button6 .primary{
+    background-color: #ff7858;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button6:hover .primary{
+    margin-top: -40px;
+}
+
+/* ----------for panchayat E07--------- */
+.center7, .front-face7,
+.back-face7, .contents7{
+    position: absolute;
+}
+
+.center7{
+    top: 45rem;
+    /* left: 47rem; main  */
+    left: 62rem;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.front-face7, .back-face7{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(panchayat.jpg);
+    background-size: 290px;
+    /* background-size: cover; */
+    background-position: 555px;
+    /* background-position: center; */
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform .7s cubic-bezier(.4, .2, .2, .1);
+}
+
+.contents7{
+    left: 0;
+    top: 90px;
+    width: 100%;
+    perspective: 1000px;
+    display: block;
+
+    /* this transform use for text 3D effect */
+    transform: translateY(-50%) translateZ(70px) scale(.94);
+}
+
+.back-face7{
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
+}
+
+.back7{
+    color: black;
+}
+
+.back7 h2{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+}
+
+.back7 h2::after{
+    /* content: ''; */
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.back7 span{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.center7:hover > .back-face7{
+    transform: rotateY(0deg);
+}
+
+.center7:hover > .front-face7{
+    transform: rotateY(-180deg);
+}
+/*---------------- button for S01 E07 ------------------ */
+.button7{
+    position: absolute;
+    top: 58.5rem;
+    left: 1048px;
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button7:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button7 .icon{
+    padding-right: 10px;
+}
+
+.button7 .firstt{
+    display: none;
+}
+
+.button7 .secondary{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5, #ff57a5a2, #768d99);
+}
+
+.button7 .primary, .button7 .secondary{
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: margin .4s;
+    backface-visibility: hidden;
+}
+
+.button7 .primary{
+    background-color: #ff7858;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button7:hover .primary{
+    margin-top: -40px;
+}
+
+
+/* ------------for panchayat E8-------------------  */
+.center8, .front-face8,
+.back-face8, .contents8{
+    position: absolute;
+}
+
+.center8{
+    top: 65rem;
+    left: 5rem;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.front-face8, .back-face8{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url(panchayat.jpg);
+    background-size: 290px;
+    background-position: 555px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform .7s cubic-bezier(.4, .2, .2, .1);
+}
+
+.contents8{
+    left: 0;
+    top: 90px;
+    width: 100%;
+    perspective: 1000px;
+    display: block;
+    transform: translateY(-50%) translateZ(70px) scale(.94);
+}
+
+.back-face8{
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #043348 50%, #9bc274 50%);
+}
+
+.back8{
+    color: black;
+}
+
+.back8 h2{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #e2dfe3;
+}
+
+.back8 h2::after{
+    /* content: ''; */
+    display: flex;
+    right: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.back8 span{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.center8:hover > .back-face8{
+    transform: rotateY(0deg);
+}
+
+.center8:hover > .front-face8{
+    transform: rotateY(-180deg); 
+}
+
+ /*---------------- button  for E08  */
+.button8{
+    position: absolute;   
+    top: 78.5rem;
+    left: 145px;
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.button8:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button8 .icon{
+    padding-right: 10px;
+}
+
+.button8 .firstt{
+    display: none;
+}
+
+.button8 .secondary{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right,  #62ec80d5, #ff57a5a2, #768d99);
+}
+
+.button8 .primary, .button8 .secondary{
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: margin .4s;
+    backface-visibility: hidden;
+}
+
+.button8 .primary{
+    background-color: #ff7858;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button8:hover .primary{
+    margin-top: -40px;
+}
+
+
+
+
 /* body */
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
     body{
-        /* position: relative; */
         height: 130vh;
         background: white;
         background: #7474BF;
         background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  
         background: linear-gradient(to right, #348AC7, #7474BF); 
     }
-}
+} */
 
 /* --------- for site name movies house ------------------ */
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 320px) {
+    
     .site-name{
         position: absolute;
         top: 80px;
-        left: 50%;
+        left: 47%;
         transform: translate(-50%, 0%);
         font-family: 'Sedgwick Ave Display', cursive;
-        font-size: 36px;
+        font-size: 30px;
         font-weight: bold;
         background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-}
 
-
-/* --------------- for about panchayat ------------------ */
-/* for monile  */
-@media only screen and (max-width: 600px){
-    .about{
+    .paint{
         position: absolute;
-        font-size: 20px;
-        font-style: italic;
-        margin: 170px 0px 0 17px;
-        /* color: floralwhite; */
-        color: black;
-        font-weight: normal;
-        /* font-family: 'Baloo Da 2', cursive; */
-        font-family: 'Neuton', serif;
-        /* font-family: 'Cormorant Unicase', serif; */
-        /* font-family: 'Aref Ruqaa', serif; */
-        /* font-family: 'DM Mono', monospace; */
-        /* font-family: 'Sedgwick Ave Display', cursive; */
-        /* font-family: 'Slabo 27px', serif; */
-        text-shadow: none;
+        top: -5px;
+        left: 15px;
+        width: 250px;
+        height: 200px;
     }
-    
-    .storyline{
-        text-align: justify;
-        position: relative;
-        margin-top: 33px;
-        margin-right: 60px;
-        left: 20px;
-    }
-    .about h3{
+
+    /* category */
+
+    .category{
+        top: 160px;
         position: absolute;
-        font-size: 30px;
-        font-weight: bold;
-        color: black;
-        font-family: 'Aref Ruqaa', serif;
-        /* font-family: 'Black And White Picture', sans-serif; */
-        text-shadow: 2px 3px 0 rgb(186, 214, 84);
-        line-height: 1px; 
+        margin: 0 -5px;
+        text-align: center;
     }
-}
+
+    .category a{
+        color: #000;
+        display: inline-block;
+        margin: 8px;
+        font-family: 'Caladea', serif;
+        background: rgb(226, 206, 190);
+        text-decoration: none;
+        padding: 5px 25px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+    /* font pic
+    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Aref Ruqaa', serif;
+    font-family: 'DM Mono', monospace;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Slabo 27px', serif; */
 
 
-/* ---------- forpanchayat trailer ---------------------- */
-/* for mobile  */
-@media only screen and (max-width: 600px){
-    .center, .front-face,
+    /* for S01 E01 */
+    .center{
+        display: none;
+    }
+
+    /* .center, .front-face,
     .back-face, .contents{
         position: absolute;
+        display: flex;
         
     }
 
     .center{
-        top: 35rem;
-        left: 2rem;
-        height: 200px;
-        width: 150px;
+        top: 26rem;
+        left: 1rem;
         background-position: center;
     }   
 
-    .front-face{
-        height: 200px;
-        width: 150px;
+    .front-face, .back-face{
+        height: 250px;
+        width: 136px;
         text-align: center;
         background: url(panchayatimg.jpg);
         background-size: cover;
         background-position: center;
         border-radius: 10px;
         backface-visibility: hidden;
+        
+        transition: none;
     }
 
     .contents{
-        left: 0;
-        top: 90px;
-        width: 100%;
+        display: none;
+    } */
+    /* button trailer */
+    
+    .center1{
         display: none;
     }
+    .center2{
+        display: none;
+    }
+    .center3{
+        display: none;
+    }
+    .center4{
+        display: none;
+    }
+    .center5{
+        display: none;
+    }
+    .center6{
+        display: none;
+    }
+    .center7{
+        display: none;
+    }
+    .center8{
+        display: none;
+    }
+    .button0{
+        display: none;
+    }
+    .button1{
+        display: none;
+    }
+    .button2{
+        display: none;
+    }
+    .button3{
+        display: none;
+    }
+    .button4{
+        display: none;
+    }
+    .button5{
+        display: none;
+    }
+    .button6{
+        display: none;
+    }
+    .button7{
+        display: none;
+    }
+    .button8{
+        display: none;
+    }
+    /* for panchayat E01 */
     
-}
-
-
-/* --------------------------------------------------Panchayat E01--------------------------- */
-/* for mobile  */
-@media only screen and (max-width:600px){
     .center0, .front-face0,
     .back-face0, .contents0{
         position: absolute;
     }
 
     .center0{
-        top: 35rem;
-        left: 14rem;
-        height: 200px;
-        width: 220px;
+        top: 26rem;
+        left: 1rem;
         background-size: cover;
         background-position: center;
     }
-
-    .front-face0{
-        height: 200px;
-        width: 150px;
+    
+    .front-face0, .back-face0{
+        height: 250px;
+        width: 136px;
         text-align: center;
         background: url(panchayatimg.jpg);
         background-size: cover;
         background-position: center;
         border-radius: 10px;
         backface-visibility: hidden;
+        transition: none;
+        -moz-box-shadow:    inset 0 0 0 #000000;
+        -webkit-box-shadow: inset 0 0 0 #000000;
+        box-shadow:         inset 0 20px 30px #000000;
+        
     }
 
     .contents0{
-        left: 0;
-        top: 90px;
-        width: 100%;
         display: none;
     }
-}
 
+    .button0{
+        display: none;
+    }
 
-/* ------- button for youtube trailer -------------*/
-/* for mobile  */
-@media only screen and (max-width:600px){
-    .button1{
+    .second_bttn1{
         position: absolute;
-        top: 48.5rem;
-        left: 3.5rem;
-        width: 100px;
-        height: 40px;
+        top: 42.5rem;
+        left: 1rem;
         display: inline-block;
-        font-family: 'Roboto', sans-serif;
-        font-size: 12px;
-        /* white-space: nowrap; */
+        width: 136px;
+        height: 40px;
+        font-family: 'Slabo 27px', serif;
+        font-size: 18px;
         font-weight: 700;
         text-align: center;
-        overflow: hidden;
-        border-radius: 10px;
-    }
-    
-    .button1:hover{
-        box-shadow: 0 0 10px rgb(0, 0, 0);
+        border-radius: 5px;
         text-decoration: none;
-    }
-    
-    .button1 .icon{
-        margin-right: 0px ;
-    }
-    
-    .button1 .secondary{
-        font-weight: 700;
-        font-size: 12px;
-        color: white;
-        background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #043348);
-        /* background: transparent; */
-    }
-    
-    
-    .button1 .primary, .button1 .secondary{
-        display: block;
-        /* padding: 0 1px; */
-        line-height: 40px;
-        transition: margin .4s;
-        backface-visibility: hidden;   
-    }
-    
-    .button1 .primary{
         background-color: #ff7858;
-        color: #fff;
+        border: hidden;
+        color: #000;
+        overflow: hidden;
+    }
+
+    .second_bttn1 .icon{
+        color: white;
+        margin-right: 5px;
+    }
+
+    .center0 .hint{
+        position: absolute;
+        display: block;
+        font-size: 19px;
+        margin: 0 8px;
+        color: white;
+        font-weight: 700;
+    font-family: 'Slabo 27px', serif; 
+        top: 10px;
+        text-align: center;
+    }
+
+    /* criminal justice  */
+    .cj{
+        top: 26rem;
+        left: 10.5rem;
+        position: absolute;
+        display: block;
+    }
+    
+    .poster_cj{
+        height: 250px;
+        width: 136px;
+        background-size: cover;
+        background-position: center;
         border-radius: 10px;
     }
-    
-    .button1:hover .primary{
-        margin-top: -40px;
-    }
-}
 
-
-/* -------------------for hover button------S01 E01------------ */
-/* for mobile  */
-@media only screen and (max-width: 600px){
-    .button2{
-        position: absolute;
-        top: 48.5rem;
-        left: 15.6rem;
-        width: 100px;
+    .cj_bttn{
+        position: absolute;   
+        top: 42.5rem;
+        left: 10.5rem;
+        width: 136px;
         height: 40px;
-        display: inline-block;
-        font-family: 'Roboto', sans-serif;
-        font-size: 12px;
+        font-size: 18px;
+        font-family: 'Slabo 27px', serif;
         font-weight: 700;
         text-align: center;
+        border-radius: 5px;
         text-decoration: none;
-        /* color: #342; */
-        /* color:white; */
-        overflow: hidden;
-        border-radius: 10px;
-    }
-    
-    .button2:hover{
-        box-shadow: 0 0 10px rgb(0, 0, 0); 
-        text-decoration: none;
-    }
-      
-    .button2 .icon{
-        margin-right: 0px;
-    }
-    
-    .button2 .secondary{
-        font-weight: 700;
-        font-size: 12px;
-        color: white;
-        inline-size: auto;
-        background: linear-gradient(to right,  #62ec80d5 , #ff57a5a2, #043348);
-    }
-    
-    .button2 .primary, .button2 .secondary{
-        display: block;
-        /* padding: 0 10px; */
-        line-height: 40px;
-        transition: margin .4s;
-        backface-visibility: hidden;
-    }
-    
-    .button2 .primary{
+        border: hidden;
         background-color: #ff7858;
-        color: #fff;
-        border-radius: 10px;
+        color: #000;
+        overflow: hidden;
     }
-    
-    .button2:hover .primary{
-        margin-top: -40px;
+    .cj_bttn .icon{
+        color: white;
+        margin-right: 5px;
     }
+
 }
+
+
