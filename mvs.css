@@ -29,7 +29,9 @@ body{
 .cj{
     display: none;
 }
-
+.cj_bttn{
+    display: none;
+}
 /* --------- for site name movies house ------------------ */
 .paint{
     top: -60px;
