@@ -1453,7 +1453,7 @@ body{
     .category{
         top: 160px;
         position: absolute;
-        margin: 0 -0px;
+        margin: 0 0px;
         text-align: center;
     }
 
@@ -1572,7 +1572,7 @@ body{
     }
 
     .center0{
-        top: 26rem;
+        top: 29rem;
         left: 2rem;
         background-size: cover;
         background-position: center;
@@ -1604,7 +1604,7 @@ body{
 
     .second_bttn1{
         position: absolute;
-        top: 42.5rem;
+        top: 45.5rem;
         left: 2rem;
         display: inline-block;
         width: 136px;
@@ -1640,7 +1640,7 @@ body{
 
     /* criminal justice  */
     .cj{
-        top: 26rem;
+        top: 29rem;
         left: 13rem;
         position: absolute;
         display: block;
@@ -1656,7 +1656,7 @@ body{
 
     .cj_bttn{
         position: absolute;   
-        top: 42.5rem;
+        top: 45.5rem;
         left: 13rem;
         width: 136px;
         height: 40px;
