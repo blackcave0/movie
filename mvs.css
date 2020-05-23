@@ -60,13 +60,13 @@ body{
 .category{
     top: 200px;
     position: absolute;
-    margin: 40px;
     text-align: center;
+    margin-top: 10px;
 }
 .category a{
     color: #000;
     display: inline-block;
-    margin:10px;
+    margin:8px 10px;
     /* font-family: 'Balsamiq Sans', cursive; */
     font-family: 'Caladea', serif;
     /* background: burlywood; */
@@ -1391,19 +1391,12 @@ body{
     
     body{
         height: 100vh;
-        /* position: relative; */
         display: block;
-        /* width: 100%; */
-        /* width: min-content; */
-        /* overflow: hidden; */
     }
     
     .navbar{
-        /* display: none; */
-        /* position: absolute; */
         width: 100%;
         margin: auto;
-
     }
     
     .site-name{
@@ -1430,7 +1423,6 @@ body{
     /* category */
 
     .category{
-        /* padding: 0 20px; */
         top: 160px;
         position: absolute;
         margin: 0 0px;
@@ -1444,7 +1436,7 @@ body{
         font-family: 'Caladea', serif;
         background: rgb(226, 206, 190);
         text-decoration: none;
-        padding: 5px 10px;
+        padding: 5px 24px;
         line-height: 20px;
         font-weight: 700;
     }
@@ -1461,37 +1453,6 @@ body{
     .center{
         display: none;
     }
-
-    /* .center, .front-face,
-    .back-face, .contents{
-        position: absolute;
-        display: flex;
-        
-    }
-
-    .center{
-        top: 26rem;
-        left: 1rem;
-        background-position: center;
-    }   
-
-    .front-face, .back-face{
-        height: 250px;
-        width: 136px;
-        text-align: center;
-        background: url(panchayatimg.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-        backface-visibility: hidden;
-        
-        transition: none;
-    }
-
-    .contents{
-        display: none;
-    } */
-    /* button trailer */
     
     .center1{
         display: none;
@@ -1568,9 +1529,9 @@ body{
         border-radius: 10px;
         backface-visibility: hidden;
         transition: none;
-        -moz-box-shadow:    inset 0 0 0 #000000;
-        -webkit-box-shadow: inset 0 0 0 #000000;
-        box-shadow:         inset 0 20px 30px #000000;
+        /* -moz-box-shadow:    inset 0 0 0 #000000; */
+        /* -webkit-box-shadow: inset 0 0 0 #000000; */
+        /* box-shadow:         inset 0 20px 30px #000000; */
         
     }
 
@@ -1604,18 +1565,6 @@ body{
     .second_bttn1 .icon{
         color: white;
         margin-right: 5px;
-    }
-
-    .center0 .hint{
-        position: absolute;
-        display: block;
-        font-size: 16px;
-        margin: 0 8px;
-        color: white;
-        font-weight: 700;
-        font-family: 'Slabo 27px', serif; 
-        top: 10px;
-        text-align: center;
     }
 
     /* criminal justice  */
