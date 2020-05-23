@@ -1369,6 +1369,9 @@ body{
     margin-top: -40px;
 }
 
+.navi{
+    display: none;
+}
 
 
 
@@ -1384,14 +1387,44 @@ body{
 } */
 
 /* --------- for site name movies house ------------------ */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 360px) {
     
     body{
         height: 100vh;
-    
-    }
-    nav{
+        /* position: relative; */
+        display: block;
         width: 100%;
+        /* width: min-content; */
+        /* overflow: hidden; */
+    }
+    
+    /* .navi{
+        width: 100%;
+        text-align: center;
+        background: burlywood;
+        font-family: 'Cormorant Unicase', serif;
+        line-height: 50px;
+    }
+
+    .navi li{
+        display: inline;
+        padding:0 20px;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .navi li a{
+        display: inline;
+        color: black;
+        text-decoration: none;
+    } */
+
+    .navbar{
+        /* display: none; */
+        /* position: absolute; */
+        width: 100%;
+        margin: auto;
+
     }
     
     .site-name{
@@ -1420,7 +1453,7 @@ body{
     .category{
         top: 160px;
         position: absolute;
-        margin: 0 -4px;
+        margin: 0 -0px;
         text-align: center;
     }
 
@@ -1431,7 +1464,7 @@ body{
         font-family: 'Caladea', serif;
         background: rgb(226, 206, 190);
         text-decoration: none;
-        padding: 5px 25px;
+        padding: 5px 20px;
         line-height: 20px;
         font-weight: 700;
     }
