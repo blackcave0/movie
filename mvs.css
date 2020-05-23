@@ -1392,28 +1392,37 @@ body{
     body{
         height: 100vh;
         display: block;
-        background: rgb(82, 122, 150);
+        /* background: rgb(82, 122, 150); */
+        /* background: #001524; */
+        /* background: #004fff; */
+        /* background: #eef0f2; */
+        /* background: rgb(7, 79, 87); */
+        /* background: #d8f1a0; select  */
+        background: #c5fffd;
     }
     
     .navbar{
         width: 100%;
         margin: auto;
+        background: #87b6a7;
     }
     
     .site-name{
         position: absolute;
         top: 80px;
-        left: 50%;
-        transform: translate(-50%, 0%);
+        left: 45%;
+        transform: translate(-40%, 0%);
         font-family: 'Sedgwick Ave Display', cursive;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: bold;
         background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        /* background: #f2a65a; */
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
     .paint{
+        display: none;
         position: absolute;
         top: -5px;
         left: 50px;
@@ -1424,21 +1433,26 @@ body{
     /* category */
 
     .category{
-        top: 160px;
+        top: 140px;
         position: absolute;
         margin: 0 0px;
         text-align: center;
     }
 
     .category a{
-        color: #000;
+        color: #fff;
         display: inline-block;
         margin: 8px;
         font-family: 'Caladea', serif;
-        background: rgb(226, 206, 190);
+        /* background: #004fff; */
+        background: #ff5964;
+        border-radius: 10px;
+        /* background: rgb(226, 206, 190); */
+        /* background: #001524; */
         text-decoration: none;
         padding: 5px 24px;
-        line-height: 20px;
+        line-height: 25px;
+        height: 35px;
         font-weight: 700;
     }
     /* font pic
@@ -1558,14 +1572,19 @@ body{
         text-align: center;
         border-radius: 5px;
         text-decoration: none;
-        background-color: #ff7858;
-        border: hidden;
+        /* background-color: #ff7858; */
+        background: transparent;
+        border-color: red;
         color: #000;
         overflow: hidden;
+        -moz-box-shadow:    inset 0 0 10px #000000;
+        -webkit-box-shadow: inset 0 0 10px #000000;
+        box-shadow:         inset 0 0 10px #074f75;
     }
 
     .second_bttn1 .icon{
-        color: white;
+        color: #3a2e39;
+        /* color: white; */
         margin-right: 5px;
     }
 
@@ -1597,14 +1616,20 @@ body{
         text-align: center;
         border-radius: 5px;
         text-decoration: none;
-        border: hidden;
-        background-color: #ff7858;
+        border-color: red;
+        background: transparent;
+        /* box-shadow: 0 0 20px #074f75; */
+        /* background-color: #ff7858; */
+        -moz-box-shadow:    inset 0 0 10px #000000;
+        -webkit-box-shadow: inset 0 0 10px #000000;
+        box-shadow:         inset 0 0 10px #074f75;
+
         color: #000;
         overflow: hidden;
         display: block;
     }
     .cj_bttn .icon{
-        color: white;
+        color: #3a2e39;
         margin-right: 5px;
     }
 
