@@ -79,7 +79,9 @@ body{
     font-weight: 700;
 }
 
- 
+.navbar{
+    background: white;
+}
 /* ---------- forpanchayat trailer ---------------------- */
 
 /* for desktop */
@@ -1392,12 +1394,6 @@ body{
     body{
         height: 100vh;
         display: block;
-        /* background: rgb(82, 122, 150); */
-        /* background: #001524; */
-        /* background: #004fff; */
-        /* background: #eef0f2; */
-        /* background: rgb(7, 79, 87); */
-        /* background: #d8f1a0; select  */
         background: #c5fffd;
     }
     
@@ -1444,11 +1440,8 @@ body{
         display: inline-block;
         margin: 8px;
         font-family: 'Caladea', serif;
-        /* background: #004fff; */
         background: #ff5964;
         border-radius: 10px;
-        /* background: rgb(226, 206, 190); */
-        /* background: #001524; */
         text-decoration: none;
         padding: 5px 24px;
         line-height: 25px;
@@ -1545,10 +1538,7 @@ body{
         border-radius: 10px;
         backface-visibility: hidden;
         transition: none;
-        /* -moz-box-shadow:    inset 0 0 0 #000000; */
-        /* -webkit-box-shadow: inset 0 0 0 #000000; */
-        /* box-shadow:         inset 0 20px 30px #000000; */
-        
+      
     }
 
     .contents0{
