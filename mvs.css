@@ -1393,9 +1393,9 @@ body{
         height: 100vh;
         /* position: relative; */
         display: block;
-        width: 100%;
+        /* width: 100%; */
         /* width: min-content; */
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     
     .navbar{
