@@ -15,7 +15,7 @@
 }
 
 body{
-    height: 250vh;
+    /* height: 250vh; */
     background: #7474BF;
     background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  
     background: linear-gradient(to right, #348AC7, #7474BF); 
