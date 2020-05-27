@@ -15,16 +15,18 @@
 }
 
 body{
-    /* height: 250vh; */
+    height: 100vh;
     background: #7474BF;
     background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  
     background: linear-gradient(to right, #348AC7, #7474BF); 
-    /* margin-bottom: 600px; */
+    /* display: flex; */
+    /* overflow: scroll; */
+    /* margin:auto; */
 }
 
 /* blocked area  */
 
-.pl, .pl_bttn, .cj_bttn, .cj, .second_bttn1, .dc , .dc_bttn, .bc, .bc_bttn{
+.pl, .pl_bttn, .cj_bttn, .cj, .second_bttn1, .dc , .dc_bttn, .bc, .bc_bttn, .blackout, .bo_bttn{
     display: none;
 }
 /* --------- for site name movies house ------------------ */
@@ -1388,10 +1390,11 @@ body{
     
     body{
         /* height: 150vh; */
-
-        /* display: ; */
+        /* overflow: scroll; */
+        display: block;
         /* margin-bottom: 200px; */
         background: #c5fffd;
+        
     }
     
     .navbar{
@@ -1513,7 +1516,7 @@ body{
         border: 1px;
         border-style: solid;
         color: #000;
-        overflow: hidden;
+        /* overflow: hidden; */
         -moz-box-shadow:    inset 0 0 10px #000000;
         -webkit-box-shadow: inset 0 0 10px #000000;
         box-shadow:         inset 0 -3px 10px #074f75;
@@ -1563,7 +1566,7 @@ body{
         -webkit-box-shadow: inset 0 0 10px #000000;
         box-shadow:         inset 0 -3px 10px #074f75;
         color: #000;
-        overflow: hidden;
+        /* overflow: hidden; */
         display: block;
     }
     .cj_bttn .icon{
@@ -1607,7 +1610,7 @@ body{
         -webkit-box-shadow: inset 0 0 10px #000000;
         box-shadow:         inset 0 -3px 10px #074f75;
         color: #000;
-        overflow: hidden;
+        /* overflow: hidden; */
         display: block;
     }
 
@@ -1655,7 +1658,7 @@ body{
         -webkit-box-shadow:     inset 0 0 10px #000000;
         box-shadow:             inset 0 0 10px #074f75;
         color: #000;
-        overflow: hidden;
+        /* overflow: hidden; */
         display: block;
     }
 
@@ -1700,7 +1703,7 @@ body{
         -webkit-box-shadow: inset 0 0 10px #000000;
         box-shadow:         inset 0 0 10px #7474BF;
         color: #000;
-        overflow: hidden;
+        /* overflow: hidden; */
         display: block;
     }
 
@@ -1749,9 +1752,50 @@ body{
         -webkit-box-shadow: inset 0 0 10px #000000;
         box-shadow:         inset 0 0 10px #7474BF;
         color: #000000;
-        overflow: hidden;
+        /* overflow: hidden; */
         display: block;
+
     }
+
+    .contact{
+        position: absolute;
+        top: 93rem;
+        background: #2d3436;
+        /* border-width: 100%; */
+        width: 100%;
+        text-align: center;
+        height: 80px;
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: space-around;
+        color: #f1f1f1;
+    }
+
+    .contact a{
+        /* box-sizing: border-box; */
+        display: inline-block;
+        color: #000;
+        border-radius: 50%;
+
+        background: white;
+        width: 35px;
+        height: 35px;
+        margin: 0 10px;
+        line-height: 35px;
+        font-size: 18px;
+        position: relative;
+        /* letter-spacing: 10px; */
+        top: 7px;
+        /* padding-left: 10px; */
+        /* border-radius: 50%; */
+        text-align: center;
+        /* -moz-box-shadow:    inset 0 0 10px #000000; */
+        /* -webkit-box-shadow: inset 0 0 10px #000000; */
+        box-shadow: 0 10px 30px #000000;
+    }
+    
+
+
 }
 
 
