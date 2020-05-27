@@ -1387,8 +1387,9 @@ body{
 @media only screen and (max-width : 360px) {
     
     body{
-        height: 150vh;
-        display: block;
+        /* height: 150vh; */
+
+        /* display: ; */
         /* margin-bottom: 200px; */
         background: #c5fffd;
     }
