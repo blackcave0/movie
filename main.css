@@ -87,22 +87,41 @@ body{
     box-shadow: 5px 5px 5px #0f2027;
 }
 
-.category a:hover:not(.a){
+.category a:hover:not(.list_line){
     background-color: #6fffe9;
     color: #000;
 }
 
 .navbar{
+    
     /* background: #2a9d8f; */
     background: #3f4045;
+    /* border-bottom: 10px solid; */
 }
+
 .navbar .navbar-brand{
     font-weight: 700;
     color: #fff;
 }
-#navbarSupportedContent a{
+
+.navbar a:hover:not(.a){
+    color: #fff;
+    /* border-bottom: 1px solid; */
+}
+
+
+#navbarSupportedContent .nav-link{
+    margin-right: 20px;
     color: #fff;
 }
+
+.dropdown-menu .dropdown-item{
+    /* caret-color: #000; */
+    color: #000;
+}
+
+
+
 /* ---------- forpanchayat trailer ---------------------- */
 
 /* for desktop */
@@ -1424,16 +1443,16 @@ body{
     .navbar{
         width: 100%;
         margin: auto;
-        /* background: #87b6a7; */
         background: #676a77;
-        /* background: #3f4045; */
     }
 
     .navbar .navbar-toggler{
         background-color: honeydew;
     }
     
-
+    .navbar a:hover:not(.a){
+        color: #fff;
+    }
     
     .site-name{
         position: absolute;
@@ -1895,6 +1914,7 @@ body{
 
     /* for pagination  */
     .pegination{
+        font-family: 'Times New Roman', Times, serif;
         position: absolute;
         top: 112.5rem;  
         left: 36px;
@@ -1905,7 +1925,7 @@ body{
         border-radius: 5px;
     }
     
-    .pagination, li{
+    .pegination li{
         color: black;
         float: left;
         margin: 0 10px;
@@ -1924,14 +1944,14 @@ body{
         
     }
     
-    .pagination, a.active{
+    .pegination a.active{
         text-decoration: none;
         background-color: #4CAF50;
         color: white;
         border-radius: 5px;
     }
       
-    .pagination, li a:hover:not(.active){
+    .pegination li a:hover:not(.active){
         background-color: rgb(124, 108, 108);
         border-radius: 5px;
         color: #000;
