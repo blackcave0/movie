@@ -2,461 +2,146 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <meta http-equiv="refresh" content="3"> -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
-  <script src="https://kit.fontawesome.com/793c404904.js" crossorigin="anonymous"></script>
-
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-  <title>OneAdda</title> 
-
-  <link rel="icon" href="webinar.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40ec0ad621.js" crossorigin="anonymous"></script>
+    <title>OneAdda.netlify.app</title>
 </head>
 
 <body>
-  <!-- <img src="yellowimg.png" class="paint"> -->
-  <!-- <div class="site-name">Movies House</div> -->
-  <div class="site-name">OneAdda</div>
+    
+    <div class="container">
 
-  <!-- category -->
-  <div class="category" data-aos="fade-up">
-    <ul class="list_line">
-      <a href="#">Hollywood</a>
-      <a href="#">Bollywood 720p</a>
-      <a href="#">Bollywood 2019</a>
-      <a href="#">Web Series</a>
-      <a href="#">Bollywood</a>
-      <a href="#">Hindi Dubbed</a>
-      <a href="#">Dual Audio</a>
-      <a href="#">Hindi Dubbed</a>
-      <a href="#">Action 720p</a>
-      <a href="#">Punjabi</a>
-      <a href="#">South Indian</a>
-    </ul>
-  </div>
+        <!-- navigation bar -->
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">OneAdda</a>
+            <a href="#">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div> 
+        <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+        </script>
 
+        <!-- website name -->
+        <div class="site-name">OneAdda</div>
 
-  <!-- for panchayat official trailer -->
-  <div class="center">
-    <div class="front-face">
-      <div class="contents1 front">
-        <!-- if you want put their image -->
-        <!-- <p>helleo</p> -->
-      </div>
-      <div class="back-face">
-        <div class="contents back">
-          <!-- you put their description of movies  -->
-          <h2>Panchayat</h2>
-          <span>Trailer</span>
+        <!-- category  -->
+        <div class="category" data-aos="fade-down">
+            <ul class="list_line">
+            <a href="#" >Hollywood</a>
+            <a href="#">Bollywood 720p</a>
+            <a href="#">Bollywood 2019</a>
+            <a href="#">Web Series</a>
+            <a href="#">Bollywood</a>
+            <a href="#">Hindi Dubbed</a>
+            <a href="#">Dual Audio</a>
+            <a href="#">Hindi Dubbed</a>
+            <a href="#">Action 720p</a>
+            <a href="#">Punjabi</a>
+            <a href="#">South Indian</a>
+            </ul>
         </div>
-      </div>
-    </div>
-    <!-- <p>helleo</p> -->
-  </div>
-  <!-- button for trailer  -->
-  <a class="button0" href="https://www.youtube.com/watch?v=mojZJ7oeD_g&t=46s" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-youtube fa-sm"></span>
-      Trailer
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-play fa-xs"></span>
-      Watch Now
-    </div>
-  </a>
-
-
-  <!-- for panchayat E01 -->
-  <div class="center0">
-    <div class="front-face0">
-      <div class="contents1 front0">
-        <!-- if you want put their image = this line is commented -->
-      </div>
-      <div class="back-face0">
-        <div class="contents0 back0">
-          <!-- you put their description of movies = this line is commented -->
-          <h2>Panchayat</h2>
-          <span>S01 - E01</span>
-          </a>
+        
+        <!-- paatal lok 320px  -->
+        <div class="pl" data-aos="zoom-in">
+            <img class="poster_pl"
+                src="https://cdn.pinkvilla.com/files/styles/contentpreview/public/paatallokposter.jpg?itok=RxVQibuQ"
+                alt="paatal lok all episode 2020 amazon prime">
+            <a href="pl.html" class="button" data-aos="zoom-in"><span class="icon fa fa-cloud-download"></span>Download</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- button for E01 -->
-  <a class="button1" href="https://mega.nz/file/3foQxQjJ#MOQHDApZfePZdJXP7uQJsYa45SLACuboF7AlTahwdtc"
-    download="PanchayatE01.mkv" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="size fa fa-download"></span>
-      S01 E01
-    </div>
 
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      305.2 MB
-    </div>
-  </a>
-  <!-- button 320px  -->
-  <a href="panchayat.html" target="_parent"><button class="second_bttn1"><span class="icon fa fa-cloud-download"></span>
-  Download</button></a>
-
-
-
-  <!-- for panchayat S01 E02 -->
-  <div class="center2">
-    <div class="front-face2">
-      <div class="contents2 front2">
-        <!-- if you want put their image  -->
-      </div>
-      <div class="back-face2">
-        <div class="contents2 back2">
-          <h2>Panchayat</h2>
-          <span>S01 - E02</span>
+        <!-- jack rayan -->
+        <div class="jack-rayan" data-aos="zoom-in">
+            <img class="poster_jack-rayan" src="https://m.media-amazon.com/images/M/MV5BNDg1Zjc4YzktMmRmZi00ZWJmLWJiYzgtYjg3MmE0OTM1NzY5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="jack rayan S02">
+            <a href="jackrayan.html" class="button" data-aos="zoom-in"><span class="icon fa fa-cloud-download"></span>Download</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- button for E02 -->
-  <a class="button2" href="https://mega.nz/file/zPYVQIpK#BJwCasaw4def0H2tFv8Ga5zzeEeN1YSLBvlO_PuHuyA"
-    download="PanchayatE02.mkv" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="size fa fa-download"></span>
-      S01 E02
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      285.4 MB
-    </div>
-  </a>
 
-  <!-- panchayat S01 E03 -->
-  <div class="center3">
-    <div class="front-face3">
-      <div class="contents3 front3">
-        <!-- if you want put their image  -->
-      </div>
-      <div class="back-face3">
-        <div class="contents3 back3">
-          <h2>Panchayat </h2>
-          <span>S01 - E03</span>
+        <!-- panchayat  -->
+        <div class="panchayat" data-aos="zoom-in">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTllYzQ0MzctZTI4Ny00YTE2LTkzYjktMTc4ZWE2MDUxNzk2XkEyXkFqcGdeQXVyNzEyNTM4MTU@._V1_.jpg" alt="" class="poster_panchayat">
+            <a href="panchayat.html" class="button" rel="noopener noreferrer"><span class="icon fa fa-cloud-download"></span>Download</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- button for E03 -->
-  <a href="https://mega.nz/file/WHIjXIRQ#t-lKvQAZBL3bDA1LHQsV5wbz0bQ83GdLXKUFaPesLoc" class="button3"
-    download="panchayatE03.mkv" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="size fa fa-download"></span>
-      S01 E03
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      261.6 MB
-    </div>
-  </a>
 
-
-  <!-- panchayat S01 E04 -->
-  <div class="center4">
-    <div class="front-face4">
-      <div class="contents4 front4">
-        <!-- if you want put their image  -->
-      </div>
-      <div class="back-face4">
-        <div class="contents4 back4">
-          <h2>Panchayat</h2>
-          <span>S01 - E04</span>
+        <!-- delhi crime -->
+        <div class="dc" data-aos="zoom-in">
+            <img class="poster_dc"
+                src="https://m.media-amazon.com/images/M/MV5BODg1MTYyZjYtMzJhZi00ZjI3LWI3MTItZTFhZDNhZmYwMjYwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+                alt="delhi crime.jpg">
+            <a href="dc.html" class="button" data-aos="zoom-in"><span class="icon fa fa-cloud-download"></span>Download</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- button for E04 -->
-  <a href="https://mega.nz/file/TDp30TiK#1mCNJEZkuVEyrtunTz7hrzW1UfDSNUu-F0i6YUVmdUI" class="button4"
-    download="panchayatE04.mkv" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="icon fa fa-download"></span>
-      S01 E04
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      214.1 MB
-    </div>
-  </a>
 
-  <!-- for panchayat E05 -->
-  <div class="center5">
-    <div class="front-face5">
-      <div class="contents5 front5">
-        <!-- if you want put their image  -->
-      </div>
-      <div class="back-face5">
-        <div class="contents5 back5">
-          <h2>Panchayat</h2>
-          <span>S01 - E05</span>
+        <!-- baghdad central -->
+        <div class="bc" data-aos="zoom-in">
+            <img class="poster_bc"
+                src="https://m.media-amazon.com/images/M/MV5BY2U4ZGFlYTEtMzc1NS00ZmY2LWE3YTYtMTc4MzQ2NzhiYmM1XkEyXkFqcGdeQXVyNTk1NDI5NTk@._V1_.jpg"
+                alt="baghdad central">
+            <a href="bc.html" class="button" data-aos="zoom-in"><span class="icon fa fa-cloud-download"></span>Download</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- button for panchayat E05 -->
-  <a href="https://mega.nz/file/qaZlRQhK#3eAu0Il6CZ14JJxFnsV1jDHsBsGA6iTCdY3DnQCPZJg" class="button5"
-    download="panchayatE05.mkv" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="icon fa fa-download"></span>
-      S01 E05
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      287.4 MB
-    </div>
-  </a>
 
-  <!-- for panchayat E06 -->
-  <div class="center6">
-    <div class="front-face6">
-      <div class="contents6 front6">
-        <!-- if you want put their image  -->
-      </div>
-      <div class="back-face6">
-        <div class="contents6 back6">
-          <h2>Panchayat</h2>
-          <span>S01 - E06</span>
+        <!-- the blackout -->
+        <div class="blackout" data-aos="zoom-in">
+            <img class="poster_bo" src="https://www.gstatic.com/tv/thumb/v22vodart/17699800/p17699800_v_v8_aa.jpg"
+                alt="the blackout 2020">
+            <a href="http://www.mediafire.com/file/quuqk33jw0snjq0/The_Blackout.mkv/file" class="button"
+                data-aos="zoom-in" target="_blank"><span class="icon fa fa-cloud-download"></span>Download</a>
+
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- button for E06 -->
-  <a href="https://mega.nz/file/DGh1mbRY#58JPvwp402hlXJWwG8-sSokeLbTiZljdSEkwvBkJ-bo" class="button6"
-    download="panchayatE06.mkv" target="_blank ">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="icon fa fa-download"></span>
-      S01 E05
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      200.7 MB
-    </div>
-  </a>
 
-  <!-- for panchayat E07 -->
-  <div class="center7">
-    <div class="front-face7">
-      <div class="contents7 front7">
-        <!-- if you want put their image  -->
-      </div>
-      <div class="back-face7">
-        <div class="contents7 back7">
-          <h2>Panchayat</h2>
-          <span>S01 - E07</span>
+        <!-- for primal 2019 -->
+        <div class="primal" data-aos="zoom-in">
+            <img class="poster_primal" src="https://image.tmdb.org/t/p/w500/v0Air5GTsfgtjsnZyji2lH6r2b8.jpg" alt="">
+            <a href="primal.html" class="button" data-aos="zoom-in"><span
+                    class="icon fa fa-cloud-download"></span>Download</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- button for E07 -->
-  <a href="https://mega.nz/file/WComyKRY#NfuEJx6pgLY-BktGyF4-MMlfJ-FQwTatZCSyOZaKCJo" class="button7"
-    download="panchayatE07.mkv" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="icon fa fa-download"></span>
-      S01 E07
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      261.5 MB
-    </div>
-  </a>
 
-  <!-- for panchayat E08 -->
-  <div class="center8" id="em">
-    <div class="front-face8">
-      <div class="contents8 front8">
-        <!-- if you want put their image  -->
-      </div>
-      <div class="back-face8">
-        <div class="contents back8">
-          <h2>Panchayat</h2>
-          <span>S01 - E08</span>
+        <!-- ghoomketu -->
+        <div class="ghoomketu" data-aos="zoom-in">
+            <img src="https://www.binged.com/wp-content/uploads/2020/05/Ghoomketu-zee5-Movie-Review-1-1-1200x1815.jpg"
+                alt="" class="poster_ghoomketu">
+            <a href="ghoomketu.html" class="button" data-aos="zoom-in"><span
+                    class="icon fa fa-cloud-download"></span>Download
+            </a>
         </div>
-      </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <!-- pagination -->
+        <div class="pegination">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="index.html" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">&raquo;</a></li>
+        </div>
+
+        <!-- contact us -->
+        <div class="contact" id="contact">
+            <span class="cont-name">&copy;Oneadda.netlify.app</span><br>
+            <a href="#"><i class="icon fa fa-facebook-square"></i></a>
+            <a href="#"><i class="icon fa fa-twitter "></i></a>
+            <a href="mailto:oneaddaofficial@gmail.com"><i class="icon fa fa-at"></i></a>
+            <a href="https://www.instagram.com/oneadda_official/"><i class="icon fa fa-instagram"></i></a>
+        </div>
     </div>
-  </div>
-  <!-- button for E08 -->
-  <a href="https://mega.nz/file/nagnkYiT#VejOimz1pXN3-aCw9n44R31YnnOC2h10ELHDeRo2iwI" class="button8"
-    download="panchayatE08.mkv" target="_blank">
-    <div class="primary">
-      <span class="icon fa fa-cloud-download"></span>
-      Download
-    </div>
-    <div class="firstt">
-      <span class="icon fa fa-download"></span>
-      S01 E08
-    </div>
-    <div class="secondary">
-      <span class="icon fa fa-download"></span>
-      309.8 MB
-    </div>
-  </a>
-
-
-
-  <!-- mobile work start form here 320px  -->
-
-  <!-- criminal justice 320px -->
-  <div class="cj">
-    <img class="poster_cj" src="https://i.pinimg.com/474x/d9/ca/35/d9ca35af5024731d051207d0ebc68716.jpg" alt="criminal justice all episode 2019 hotstar special mkv ">
-  </div>
-  <a href="cj.html" target="_parent"><button class="cj_bttn" ><span class="icon fa fa-cloud-download"></span>Download</button></a>
-
-  <!-- paatal lok 320px  -->
-  <div class="pl" data-aos="zoom-in">
-    <img class="poster_pl" src="https://cdn.pinkvilla.com/files/styles/contentpreview/public/paatallokposter.jpg?itok=RxVQibuQ" alt="paatal lok all episode 2020 amazon prime">
-  </div>
-  <a href="pl.html" target="_parent"><button class="pl_bttn" data-aos="zoom-in-down"><span class="icon fa fa-cloud-download"></span>Download</button></a>
-
-
-  <!-- delhi crime -->
-  <div class="dc" data-aos="zoom-in">
-    <img class="poster_dc" src="https://m.media-amazon.com/images/M/MV5BODg1MTYyZjYtMzJhZi00ZjI3LWI3MTItZTFhZDNhZmYwMjYwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"alt="delhi crime.jpg">
-  </div>
-  <a href="dc.html" rel="noopener noreferrer"><button class="dc_bttn" data-aos="zoom-in-down"><span class="icon fa fa-cloud-download"></span>Download</button></a>
-
-  <!-- baghdad central -->
-  <div class="bc" data-aos="zoom-in">
-    <img class="poster_bc" src="https://m.media-amazon.com/images/M/MV5BY2U4ZGFlYTEtMzc1NS00ZmY2LWE3YTYtMTc4MzQ2NzhiYmM1XkEyXkFqcGdeQXVyNTk1NDI5NTk@._V1_.jpg" alt="baghdad central">
-  </div>
-  <a href="bc.html">
-    <button class="bc_bttn" data-aos="zoom-in"><span class="icon fa fa-cloud-download"></span>Download</button>
-  </a>
-
-  <!-- the blackout -->
-  <div class="blackout" data-aos="zoom-in">
-    <img class="poster_bo" src="https://www.gstatic.com/tv/thumb/v22vodart/17699800/p17699800_v_v8_aa.jpg" alt="the blackout 2020">
-  </div>
-  <a href="http://www.mediafire.com/file/quuqk33jw0snjq0/The_Blackout.mkv/file" >
-    <button class="bo_bttn" data-aos="flip-right"><span class="icon fa fa-cloud-download"></span>Download</button>
-  </a>
-  <!-- for primal 2019 -->
-  <div class="primal" data-aos="zoom-in">
-    <img class="poster_primal" src="https://image.tmdb.org/t/p/w500/v0Air5GTsfgtjsnZyji2lH6r2b8.jpg" alt="" >
-  </div>
-  <a href="primal.html"><button class="primal_bttn" data-aos="zoom-in"><span class="icon fa fa-cloud-download" ></span>Download</button>
-  </a>
-
-  <!-- ghoomketu -->
-  <div class="ghoomketu" data-aos="zoom-in">
-    <img src="https://www.binged.com/wp-content/uploads/2020/05/Ghoomketu-zee5-Movie-Review-1-1-1200x1815.jpg" alt="" class="poster_ghoomketu">
-  </div>
-  <a href="ghoomketu.html"><button  data-aos="zoom-in" class="gmkt_bttn"><span class="icon fa fa-cloud-download"></span>Download</button></a>
-
-
-  <div class="pegination">
-    <li><a href="#">&laquo;</a></li>
-    <li><a href="#" class="active">1</a></li>
-    <li><a href="second_page.html">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <!-- <li><a href="#">5</a></li> -->
-    <li><a href="#">&raquo;</a></li>
-  </div>
-
-
-
-  <div class="contact">
-    <span class="cont-name">&copy;Oneadda.netlify.app</span><br>
-    <a href="#"><i class="fa fa-facebook-official"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="mailto:oneaddaofficial@gmail.com"><i class="fa fa-envelope"></i></a> 
-    <a href="https://www.instagram.com/oneadda_official/"><i class="fa fa-instagram"></i></a>
-  </div>
-
-
-
-  <!-- for animation effect -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-
-  <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-down">
-    <a class="navbar-brand" href="#">OneAdda</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
 </body>
 
 </html>
