@@ -86,6 +86,7 @@ body {
     }
 }
 
+    /* site name  */
 .container .site-name {
     width: 100%;
     text-align: center;
@@ -255,6 +256,6 @@ li a {
 
 .contact .icon{
     /* color: red; */
-    padding: 10px 11px;
+    padding: 10px 10px;
     font-size: 20px;
 }
