@@ -384,6 +384,10 @@ li a {
     .poster_bo {
         border: 1px solid;
     }
+
+    .ghoomketu{
+        left: -83px;
+    }
     
     .container .button{
         position: relative;
