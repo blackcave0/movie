@@ -17,88 +17,267 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Caladea&family=Merriweather:ital,wght@1,300&display=swap');
 
-        @media screen and (max-width: 480px) {
-
+       
+@media screen and (max-width: 1376px){
             body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100vh;
+                overflow-x: hidden;
+                /* height: 100vh; */
                 background: rgb(189, 233, 250);
             }
 
-            .category {
+            .category{
                 top: -40px;
                 position: absolute;
                 width: 100%;
             }
 
-            .pan_txt {
+            .pan_txt{
                 font-family: 'Aref Ruqaa', serif;
                 background: mintcream;
                 height: 70px;
                 color: midnightblue;
-                font-size: 26px;
-                line-height: 70px;
+                font-size: 34px;
+                line-height: 60px;
             }
 
-            .about {
+            .about{
                 font-family: 'Merriweather', serif;
-                /* font-family: 'Baloo Da 2', cursive; */
-                /* font-family: 'Cormorant Unicase', serif; */
-                /* font-family: 'Aref Ruqaa', serif; */
-                /* font-family: 'DM Mono', monospace; */
-                /* font-family: 'Sedgwick Ave Display', cursive; */
-                /* font-family: 'Slabo 27px', serif; */
                 font-size: 17px;
                 position: relative;
-                margin: 0 40px;
-                /* text-align: center; */
+                margin: 0 130px;
                 text-align: justify;
             }
 
-            .about h3 {
+            .about h3{
+                position: relative;
+                left: -70px;
+                font-size: 25px;
+                /* top: 30px; */
+            }
+            p{
+                font-size: 20px;
+            }
+            .about .p1{
+                font-family: sans-serif;
+                text-align: justify;
+                /* margin-right: 80px; */
+                font-family: 'Merriweather', serif;
+                /* position: relative; */
+            }
+            .detail{
+                left: 80px;
+                position: absolute;
+            }
+
+            h2{
+                background: violet;
+                height: 50px;
+                font-size: 30px;
+                line-height: 50px;
+                text-align: center;
+                position: relative;
+                margin-top: 40px;
+            }
+
+            .image{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                /* margin: 0 40px; */
+            }
+            img{
+                position: relative;
+                height: 300px;
+                width: 500px;
+                padding: 2px 5px;
+                margin: 10px 10px;
+                box-sizing: border-box;
+            }
+
+            .ifr{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            iframe{
+                width: 600px;
+                height: 400px;
+            }
+
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .list_line a{
+                color: #000;
+                display: inline-block;
+                margin: 40px 30px;
+                /* width: auto; */
+                text-align: center;
+                font-family: 'Caladea', serif;
+                background: rgb(240, 174, 120);
+                text-decoration: none;
+                padding: 13px 70px;
+                line-height: 25px;
+                font-size: 23px;
+                font-weight: 700;
+            }
+
+            .icon{
+                left: 12px;
+                position: relative;
+                /* background: linear-gradient(90deg, rgb(189, 189, 51) 100% , white 0%); */
+                background: black;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }   
+
+            .thanks{
+                background: #201b1b;
+                height: 100px;
+                line-height: 20px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                text-align: center;
+                /* font-size: 90px; */
+                color: #fff;
+            }
+
+            .thanks p{
+                font-size: 25px;
+            }
+
+            .smile{
+                margin-left: 10px;
+                color: #fff;
+            }
+
+            .site{
+                margin-right: 10px;
+                justify-content: center;
+                font-size: 16px;
+                align-items: center;
+                text-align: center;
+            }
+
+            .name h2{
+                background: #223346;
+                color: #fff;
+                height: 170px;
+                font-family: 'Cormorant Unicase', serif;
+                font-size: 95px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* height: 100vh; */
+                background: rgb(189, 233, 250);
+            }
+
+            .category{
+                top: -40px;
+                position: absolute;
+                width: 100%;
+            }
+
+            .pan_txt{
+                font-family: 'Aref Ruqaa', serif;
+                background: mintcream;
+                height: 70px;
+                color: midnightblue;
+                font-size: 24px;
+                line-height: 70px;
+            }
+
+            .about{
+                font-family: 'Merriweather', serif;
+                font-size: 17px;
+                position: relative;
+                margin: 0 40px;
+                text-align: justify;
+            }
+
+            .about h3{
                 position: relative;
                 left: -20px;
                 top: 10px;
             }
 
-            .about .p1 {
+            .about .p1{
                 font-family: sans-serif;
                 text-align: justify;
+                /* margin-right: 80px; */
                 font-family: 'Merriweather', serif;
+                /* position: relative; */
+            }
+            .detail{
+                left: 80px;
+                position: absolute;
             }
 
-            h2 {
+            h2{
                 background: violet;
                 height: 40px;
                 line-height: 40px;
                 text-align: center;
                 position: relative;
                 margin-top: 40px;
-
             }
 
-            img {
+            img{
+                position: relative;
                 height: 100px;
                 width: 177px;
                 padding: 2px 5px;
+                margin: auto;
                 box-sizing: border-box;
-                position: relative;
+            }
+           
+            iframe{
+                width: 360px;
+                height: 200px;
             }
 
-            .list_line a {
+            ul{
+                margin-left: -49px;
+            }
+            .list_line a{
                 color: #000;
                 display: inline-block;
-                margin: 20px 55px;
+                margin: 50px 0;
+                width: 150px;
                 font-family: 'Caladea', serif;
                 background: rgb(240, 174, 120);
                 text-decoration: none;
-                padding: 8px 50px;
+                padding: 8px 20px;
                 line-height: 25px;
                 font-size: 18px;
                 font-weight: 700;
             }
+
+            .icon{
+                left: 12px;
+                position: relative;
+                /* background: linear-gradient(90deg, rgb(189, 189, 51) 100% , white 0%); */
+                background: black;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }   
 
             .thanks{
                 background: #201b1b;
@@ -111,7 +290,9 @@
                 font-size: 20px;
                 color: #fff;
             }
-
+            .thanks p{
+                font-size: inherit;
+            }
             .smile{
                 margin-left: 10px;
                 color: #fff;

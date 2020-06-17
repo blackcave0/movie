@@ -16,6 +16,158 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Caladea&family=Merriweather:ital,wght@1,300&display=swap');
 
+        @media screen and (max-width: 1376px){
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow-x: hidden;
+                /* height: 100vh; */
+                background: rgb(189, 233, 250);
+            }
+
+            .category{
+                top: -40px;
+                position: absolute;
+                width: 100%;
+            }
+
+            .pan_txt{
+                font-family: 'Aref Ruqaa', serif;
+                background: mintcream;
+                height: 70px;
+                color: midnightblue;
+                font-size: 34px;
+                line-height: 60px;
+            }
+
+            .about{
+                font-family: 'Merriweather', serif;
+                font-size: 17px;
+                position: relative;
+                margin: 0 130px;
+                text-align: justify;
+            }
+
+            .about h3{
+                position: relative;
+                left: -70px;
+                font-size: 25px;
+                /* top: 30px; */
+            }
+            p{
+                font-size: 20px;
+            }
+            .about .p1{
+                font-family: sans-serif;
+                text-align: justify;
+                /* margin-right: 80px; */
+                font-family: 'Merriweather', serif;
+                /* position: relative; */
+            }
+            .detail{
+                left: 80px;
+                position: absolute;
+            }
+
+            h2{
+                background: violet;
+                height: 50px;
+                font-size: 30px;
+                line-height: 50px;
+                text-align: center;
+                position: relative;
+                margin-top: 40px;
+            }
+
+            img{
+                position: relative;
+                height: 100px;
+                width: 177px;
+                padding: 2px 5px;
+                box-sizing: border-box;
+            }
+
+            .ifr{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            iframe{
+                width: 600px;
+                height: 400px;
+            }
+
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .list_line a{
+                color: #000;
+                display: inline-block;
+                margin: 90px 0;
+                width: 250px;
+                text-align: center;
+                font-family: 'Caladea', serif;
+                background: rgb(240, 174, 120);
+                text-decoration: none;
+                padding: 18px 90px;
+                line-height: 25px;
+                font-size: 23px;
+                font-weight: 700;
+            }
+
+            .icon{
+                left: 12px;
+                position: relative;
+                /* background: linear-gradient(90deg, rgb(189, 189, 51) 100% , white 0%); */
+                background: black;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }   
+
+            .thanks{
+                background: #201b1b;
+                height: 100px;
+                line-height: 20px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                text-align: center;
+                /* font-size: 90px; */
+                color: #fff;
+            }
+
+            .thanks p{
+                font-size: 25px;
+            }
+
+            .smile{
+                margin-left: 10px;
+                color: #fff;
+            }
+
+            .site{
+                margin-right: 10px;
+                justify-content: center;
+                font-size: 16px;
+                align-items: center;
+                text-align: center;
+            }
+
+            .name h2{
+                background: #223346;
+                color: #fff;
+                height: 170px;
+                font-family: 'Cormorant Unicase', serif;
+                font-size: 95px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+        }
+
         @media screen and (max-width: 480px) {
             body {
                 display: flex;
@@ -82,6 +234,11 @@
                 padding: 2px 5px;
                 box-sizing: border-box;
             }
+           
+            iframe{
+                width: 360px;
+                height: 200px;
+            }
 
             .list_line a{
                 color: #000;
@@ -99,7 +256,8 @@
             .icon{
                 left: 12px;
                 position: relative;
-                background: linear-gradient(90deg, rgb(189, 189, 51) 100% , white 0%);                
+                /* background: linear-gradient(90deg, rgb(189, 189, 51) 100% , white 0%); */
+                background: black;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }   
@@ -115,7 +273,9 @@
                 font-size: 20px;
                 color: #fff;
             }
-
+            .thanks p{
+                font-size: inherit;
+            }
             .smile{
                 margin-left: 10px;
                 color: #fff;
@@ -155,7 +315,7 @@
                 <q> Two scheming men get caught up in a game of one upmanship, each one attracting other members to their clan and each one with an agenda of his own. </q>
             </p><br>
             <p class="p1">
-                <b>Genre : </b><span class="detail">Drama |Comedy</span><br>
+                <b>Genre : </b><span class="detail">Drama | Comedy</span><br>
                 <b>IMDb :</b><span class="detail">6.6/10 </span><br><b>Year :</b><span class="detail">2020</span><br>
                 <b>Rating :</b>
                 <span class="icon fa fa-star"></span>
@@ -168,8 +328,11 @@
         </div>
 
         <h2>Watch Trailer</h2>
-        <iframe width="360" height="200" src="https://www.youtube.com/embed/o0qeQ_yHqtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <div class="ifr">
+            <iframe width="360" height="200" src="https://www.youtube.com/embed/o0qeQ_yHqtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+        
+        
         <ul class="list_line">
             <a href="https://www.file-upload.com/jyjqmhmen678" target="_blank">Download 720p</a>
         </ul>
