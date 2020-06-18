@@ -139,8 +139,8 @@ body {
 
 
 .container img {
-    width: 136px;
-    height: 250px;
+    width: 166px;
+    height: 260px;
     /* margin-bottom: 30px; */
     margin: 0 20px;
     border-radius: 5px;
@@ -151,11 +151,10 @@ body {
     border: 1px solid;
 }
 
-.ghoomketu{
-    left: -530px;
+/* .ghoomketu{
+    left: -440px;
     position: relative;
-    
-}
+} */
 
 .container .button{
     position: relative;
@@ -163,7 +162,7 @@ body {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    width: 136px;
+    width: 166px;
     height: 40px;
     margin: 0 20px;
     margin-bottom: 45px;
@@ -385,9 +384,9 @@ li a {
         border: 1px solid;
     }
 
-    .ghoomketu{
-        left: -83px;
-    }
+    /* .ghoomketu{
+        left: auto;
+    } */
     
     .container .button{
         position: relative;
@@ -509,6 +508,5 @@ li a {
         padding: 10px 10px;
         font-size: 20px;
     }
-    
 
 }
