@@ -198,7 +198,7 @@ body {
     align-items: center;
     justify-content: center;
     display: inline-block;
-    width: 90%;
+    width: 50%;
     display: flex; 
     border-radius: 5px;
     background: #87b6a7;
@@ -373,9 +373,9 @@ li a {
     }
     
     .container img {
-        width: 136px;
+        width: 146px;
         height: 250px;
-        margin: 0 15px;
+        margin: 0 25px;
         border-radius: 5px;
     }
     
@@ -394,9 +394,9 @@ li a {
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        width: 136px;
+        width: 146px;
         height: 40px;
-        margin: 0 15px;
+        margin: 0 25px;
         margin-bottom: 25px;
         margin-top: 5px;
         /* font-family: 'Slabo 27px', serif; */
@@ -434,13 +434,17 @@ li a {
         list-style: none;
         width: 80%;
         padding: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
     }
+    
     
     .pegination li {
         color: black;
         float: left;
         margin: 0 10px;
-        
     }
     
     li a {
@@ -452,16 +456,12 @@ li a {
         font-size: 13px;
         float: left;
         position: relative;
-        padding: 6px 10px;
+        padding: 6px 15px;
         /* background-color: #4CAF50; */
         text-decoration: none;
-        border-radius: 5px;
-    
+        border-radius: 5px;    
     }
     
-    .blck{
-        display: none;
-    }
 
     .pegination a.active {
         text-decoration: none;
@@ -659,7 +659,10 @@ li a {
     .container .pegination {
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
+        align-items: center;
+        justify-content: center;
         display: inline-block;
+        display: flex;
         border-radius: 5px;
         background: #87b6a7;
         margin: 20px 0 30px 0;
@@ -691,9 +694,6 @@ li a {
     
     }
     
-    .blck{
-        display: none;
-    }
 
     .pegination a.active {
         text-decoration: none;
