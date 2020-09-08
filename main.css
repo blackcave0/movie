@@ -290,14 +290,10 @@ li a {
         /* background: #c5fffd; */
     }
     
-    #myTopnav{
-        
-    }
     .topnav {
-        overflow: hidden;
+        /* overflow: hidden; */
         background-color: #333;
         width: 100%;
-        height: 100%;
     }
     
     .topnav a {
@@ -307,17 +303,15 @@ li a {
         text-align: center;
         padding: 20px 26px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 27px;
     }
     
     
     .topnav a:hover {
         background-color: #ddd;
         color: black;
-        right: -10px;
-        
     }
-
+    
     
     .topnav a.active {
         background-color: #4CAF50;
